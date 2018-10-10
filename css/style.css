@@ -1,0 +1,85 @@
+/*css document*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.main_body{
+  height: 100%;
+  float: left;
+  width: 100%;
+}
+.form_body{
+  margin: 6% auto;
+  width: 70%;
+}
+.form_body h1{
+  color: #605c57;
+  text-align: center;
+  margin: 3%;
+}
+.check_form{
+	width: 100%;
+	float: left;
+	border-radius: 3px;
+}
+.word{
+	background-color: #0cad0c;
+	width: 10%;
+	float: left;
+	padding: 7px;
+  font-weight: bold;
+	text-align: center;
+	color: #fff;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+  margin-left: 8%;
+}
+.check_form input[type='text']{
+	width: 70%;
+	font-size: 16px;
+	color: #453D49;
+	letter-spacing: 1px;
+	padding: 7px;
+  box-shadow: 0px 0px 4px #ccc;
+}
+.check_form input[type='text']:focus{
+  box-shadow: 0px 0px 4px #0fef1a;
+}
+.button{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.btn_search_home{
+  width: 30%;
+  padding: 8px;
+  background-color: #1ea425;
+  font-size: 1.3em;
+  color: #fff;
+  margin: 3%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn_search_home:hover{
+  background-color: #1dbc25;
+  transition: all .6s ease-in-out;
+}
+.out_word{
+  width: 60%;
+  float: left;
+  margin-left: 20%;
+  font-size: 1.2em;
+}
+.out_word textarea{
+  float: left;
+  width: 100%;
+  border:1px solid #ccc !important;
+}
+.text-primary{
+  font-size: 1.2em;
+}
